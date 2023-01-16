@@ -1,0 +1,79 @@
+.dashboard {
+    min-height: 90vh;
+}
+
+.dashboard .heading {
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.dashbaord_heading {
+    width: 100%;
+    display: flex;
+}
+
+.dashbaord_heading .dashbord_client {
+    width: 70%;
+}
+
+.dashbaord_heading .dashboard_button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 30%;
+}
+
+.dashbaord_heading .dashboard_button button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid orange;
+    background: var(--gray);
+    color: var(--white);
+}
+
+.dashboard .dashbord-count {
+    display: flex;
+    gap: 10px;
+}
+
+.dashboard .total_records {
+    display: flex;
+    width: 70%;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dashboard .total_records .total_client {
+    width: 33.33%;
+    color: white;
+    height: max-content;
+}
+
+.dashboard .total_records .total_client h2 {
+    margin-bottom: 10px;
+}
+
+.dashboard .search {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard .search .input-search input {
+    height: 2.5rem;
+    border-radius: 6px;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    width: 100%;
+    background-color: var(--black);
+    color: gray;
+    font-size: 17px;
+}
+
+.dashboard .search .content {
+    border: 1px solid orange;
+}

@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+    background-color: var(--black);
+    align-items: center;
+    color: var(--white);
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.name {
+    padding: 1rem;
+    background-color: var(--gray);
+    width: 18%;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.header .header_right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header_right img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.header-right-text p:nth-child(1) {
+    font-size: 15px;
+}
+
+.header-right-text p:nth-child(2) {
+    font-size: 12px;
+    color: gray;
+}

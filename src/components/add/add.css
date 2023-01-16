@@ -1,0 +1,104 @@
+.add_client {
+    min-height: 90vh;
+    color: var(--white);
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.col-left {
+    width: 25%;
+    text-align: center;
+}
+
+.col-left .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.col-left .profile-card .edit-icon {
+    position: absolute;
+    right: 127px;
+    top: 129px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid white;
+}
+
+.col-left .profile-card img input {
+    position: absolute;
+    right: -80px;
+}
+
+.col-left .profile-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.col-left button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid orange;
+    background: var(--gray);
+    color: var(--white);
+    margin-top: 20px;
+}
+
+.col-right {
+    width: 75%;
+    max-height: 90vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.col-right .form-field .add-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.col-right .form-field .add-button button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid orange;
+    background: var(--gray);
+    color: var(--white);
+}
+
+.col-right .card .form-field .client-info,
+.client-kyc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+
+}
+
+.col-right .card .form-field .client-info .form-input-field,
+.col-right .card .form-field .client-kyc .form-input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.col-right .card .form-field .form-input-field input,
+.col-right .card .form-field .form-input-field select {
+    height: 2.5rem;
+    border-radius: 6px;
+    padding: 0.5rem;
+    border: 1px solid orange;
+    margin-top: 5px;
+}
